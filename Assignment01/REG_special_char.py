@@ -10,10 +10,10 @@ def run(string):
     # Pass the string in search 
     # method of regex object.    
     if(regex.search(string) is None):
-        print("String is accepted")
+        print("String contain special character.")
         
     else:
-        print("String is not accepted.")
+        print("String does not contain special character. ")
     
 
 # Driver Code
